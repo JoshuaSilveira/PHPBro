@@ -1,0 +1,126 @@
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.navbar {
+	background-color: #e3f2fd;
+}
+
+.navbar-nav {
+	flex-direction: row;
+}
+
+.navbar-nav li {
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+.navbar-nav li a {
+	height: 4em;
+}
+
+.dropdown-menu li a {
+	height: 2em;
+}
+
+/* Header navbar images */
+li a img {
+	height: 2em;
+	width: 2em;
+}
+
+/* Set Bootstrap Margins to 0 */
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#routeMap {
+	/*background-image: url("../img/routeMapDemo.png");
+	background-size: 100% 100%;*/
+	height: 500px;
+	width: 500px;
+}
+
+#calorieGraph {
+	background-image: url("../img/caloriesGraphDemo.png");
+	background-size: 100% 100%;
+	height: 750px;
+	width: 1000px;
+}
+
+#eventCalendar {
+	/*
+	background-image: url("../img/eventCalendarDemo.png");
+	background-size: 100% 100%;
+	*/
+	height: 750px;
+	width: 700px;
+}
+
+.calendar {
+	padding: 0;
+}
+
+.dayHeader {
+	padding: 0;
+	border: 1px solid black;
+}
+
+.day {
+	padding: 0;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.event {
+	font-size: 10px;
+	background-color: #8BE796;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.localEvent {
+	font-size: 10px;
+	background-color: orange;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.headerTitle {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	background-color: #C3CEE6;
+	color: white;
+}
+
+.headerTitle a {
+	color: black;
+	text-decoration: none;
+}
+
+.headerTitle a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.footerContainer {
+	display: flex;
+	justify-content: center;
+	background-color: #C3CEE6;
+	padding: 0.5em;
+}
+
+.home-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.meal-search {
+	display: flex;
+	flex-direction: row;
+}
